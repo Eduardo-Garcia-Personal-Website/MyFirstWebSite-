@@ -11,16 +11,28 @@
     <nav>
         <p1>Eduardo Garcia</p1> 
         <a href="index.html">Home</a>
-        <a href="/About.html">About</a>
-        <a href="/Portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
     </nav>
     <header>
-        <p>Looking to further improve my programming and development skills, and help others along the way. </p>
+        <p3>Looking to further improve my programming and development skills, and help others along the way. </p3>
     </header>
 </body>
 <footer>
     <blockquote>
         "First, Solve the problem. Then, write the code." - John Johnson
     </blockquote>
+    <form action="contact.html" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
 </footer>
 </html>
